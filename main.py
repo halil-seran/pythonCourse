@@ -12,3 +12,4 @@ age = 25
 #age += 1
 print("Your age: " + str(age))
 
+height = 250.5
