@@ -50,7 +50,31 @@
 # print(y)
 # print(z*3)
 
+# name = input("Enter your name: ")
+# age = int(input("Enter your age: "))
+# height = float(input("Enter your height: "))
+#
+# age += 1
+#
+# print("Hello " + name)
+# print("Your age: " + str(age))
+# print("Your height: " + str(height))
 
 
-
+# import math
+#
+# pi=math.pi
+#
+# print(round(pi))
+# print(math.ceil(pi))
+# print(math.floor(pi))
+# print(abs(pi * -1)) #mutlak deger
+# print(pow(pi,2)) #ust alma
+# print(math.sqrt(pi)) #karekok
+#
+# x=1
+# y=2
+# z=3
+# print(max(x,y,z))
+# print(min(x,y,z))
 
