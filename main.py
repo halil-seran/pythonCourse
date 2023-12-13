@@ -1,28 +1,28 @@
 # print('lets try again')
 
-#name = ('halil')
-#print('hello', name)
+# name = ('halil')
+# print('hello', name)
 # print(type(name))
-#first_name = 'halil'
-#last_name = 'seran'
-#full_name = first_name + ' ' + last_name
-#print(full_name)
+# first_name = 'halil'
+# last_name = 'seran'
+# full_name = first_name + ' ' + last_name
+# print(full_name)
 
-#age = 25
-#age += 1
-#print("Your age: " + str(age))
+# age = 25
+# age += 1
+# print("Your age: " + str(age))
 
-#height = 250.5
-#print(type(height))
+# height = 250.5
+# print(type(height))
 
-#isHuman = True
-#print(isHuman)
+# isHuman = True
+# print(isHuman)
 
-#name, age, isHuman = 'halil', 25, True
-#print(name, age, isHuman)
+# name, age, isHuman = 'halil', 25, True
+# print(name, age, isHuman)
 
-#age1 = age2 = age3 = 25
-#print(age1, age2, age3)
+# age1 = age2 = age3 = 25
+# print(age1, age2, age3)
 
 # name = 'halil'
 #
@@ -77,4 +77,49 @@
 # z=3
 # print(max(x,y,z))
 # print(min(x,y,z))
+
+# name = "halil seran"
+#
+# first_name = name[:5]
+# last_name = name[6:]
+# funky_name = name[::2]
+# reversed_name = name[: :-1]
+#
+# print(first_name)
+# print(last_name)
+# print(funky_name)
+# print(reversed_name)
+
+# website = "http://www.google.com"
+#
+# slice = slice(11,-4)
+#
+# print(website[slice])
+
+# age = int(input("Enter your age: "))
+#
+# if age <= 18:
+#     print("You can't drive")
+# elif age == 50:
+#     print("You are 50")
+# elif age > 18 and age < 100:
+#     print("You can drive")
+# else:
+#     print("You forgot to die")
+
+# temp = int(input("Enter the temperature: "))
+#
+# if not temp < 30:
+#     print("It's hot")
+# elif temp < 10 and temp > 0:
+#     print("It's cold")
+# elif temp <= 0:
+#     print("It's freezing")
+# else:
+#     print("It's ok")
+
+
+
+
+
 
