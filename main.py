@@ -118,8 +118,114 @@
 # else:
 #     print("It's ok")
 
+# while 1==1:
+#     print("im stuck help me")
+#     infinite loop
+
+# name = ""
+#
+# while len(name) == 0:
+#     name = input("Enter your name: ")
+#
+# print("Hello " + name)
+
+# for i in range(10):
+#     print(i)®
+
+# for i in range(10,30+1,2):
+#     print(i)
+
+# for i in "halil seran":
+#     print(i)
+
+# import time
+#
+# for seconds in range(10,0-1,-1):
+#     print(seconds)
+#     time.sleep(1)
+# print("Happy new year")
+
+# rows = int(input("Enter the number of rows: "))
+# columns = int(input("Enter the number of columns: "))
+# symbol = input("Enter a symbol to use: ")
+#
+# for i in range(rows):
+#     for j in range(columns):
+#         print(symbol, end="")
+#     print()
+
+# while True:
+#     name = input("Enter your name: ")
+#     if name != "":
+#         break
+
+# phone_number = "123-456-7890"
+#
+# for i in phone_number:
+#     if i == "-":
+#         continue
+#     print(i, end="")
+
+# for i in range(1,21):
+#     if i == 13 or i == 4:
+#         continue
+#     print(i)
+
+# food = ["pizza", "hamburger", "hotdog", "spaghetti", "pudding"]
+#
+# food[0] = "sushi"
+#
+# food.append("ice cream")
+# food.remove("hotdog")
+# food.pop()
+# food.insert(0, "cake")
+# food.sort()
+# food.clear()
 
 
+# print(food[0])
 
+# for x in food:
+#     print(x)
+
+# drinks = ["coffee", "soda", "tea"]
+# dinner = ["pizza", "hamburger", "hotdog"]
+# dessert = ["cake", "ice cream"]
+#
+# food = [drinks, dinner, dessert]
+#
+# print(food[1][2])
+
+# student = ("halil", 25, "male")
+#
+# print(student.count("halil"))
+# print(student.index("male"))
+#
+# for x in student:
+#     print(x)
+#
+# if "halil" in student:
+#     print("halil is here")
+
+# utensils = {"fork", "spoon", "knife"}
+# dishes = {"bowl", "plate", "cup", "knife"}
+
+# utensils.add("napkin")
+# utensils.remove("fork")
+# utensils.clear()
+# utensils.update(dishes)
+# dinner_table = utensils.union(dishes)
+
+# print(utensils.difference(dishes))
+# print(utensils.intersection(dishes))
+
+#
+# for x in utensils:
+#     print(x)
+
+# capitals = {'USA': 'Washington DC',
+#             'India': 'New Delhi',
+#             'China': 'Beijing',
+#             'Russia': 'Moscow'}
 
 
