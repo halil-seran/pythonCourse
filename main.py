@@ -398,6 +398,142 @@
 # except FileNotFoundError:
 #     print("That file was not found")
 
+# copyfile() =copies contents of a file
+# copy() = copyfile() + permission mode + destination can be a directory
+# copy2() = copy() + copies metadata (file's creation and modification times)
+
+# import shutil
+#
+# shutil.copy("test.txt", "copy-test.txt")
+
+# import os
+#
+# source = "/Users/halil/PycharmProjects/pythonProject/test.txt"
+# destination = "/Users/halil/PycharmProjects/pythonProject/copy-test.txt"
+#
+# try:
+#     if(os.path.exists(destination)):
+#         print("There is already a file there")
+#     else:
+#         os.replace(source, destination)
+#         print("File was copied successfully")
+# except:
+#     print("File was copied successfully")
+
+# import os
+#
+# path = "copytest.txt"
+# os.remove(path)
+#
+# try:
+#     os.remove(path)
+# except FileNotFoundError as e:
+#     print(e)
+
+# import messages as msg
+#
+# msg.say_hi()
+# msg.say_bye()
+#
+# from messages import say_hi, say_bye
+#
+# say_hi()
+# say_bye()
+
+# help("modules")
+
+# rock paper scissors game
+
+# import random
+#
+# computer = random.choice(["rock", "paper", "scissors"])
+#
+# input("Welcome to rock, paper, scissors. Press enter to start")
+#
+# player = input("Choose rock, paper or scissors: ").lower().strip()
+#
+# if player == computer:
+#     print("player: " + player)
+#     print("computer: " + computer)
+#     print("Tie")
+# elif player == "rock" and computer == "paper":
+#     print("player: " + player)
+#     print("computer: " + computer)
+#     print("You lose", computer, "covers", player)
+# elif player == "rock" and computer == "scissors":
+#     print("player: " + player)
+#     print("computer: " + computer)
+#     print("You win", player, "smashes", computer)
+# elif player == "paper" and computer == "rock":
+#     print("player: " + player)
+#     print("computer: " + computer)
+#     print("You win", player, "covers", computer)
+# elif player == "paper" and computer == "scissors":
+#     print("player: " + player)
+#     print("computer: " + computer)
+#     print("You lose", computer, "cuts", player)
+# elif player == "scissors" and computer == "paper":
+#     print("player: " + player)
+#     print("computer: " + computer)
+#     print("You win", player, "cuts", computer)
+# elif player == "scissors" and computer == "rock":
+#     print("player: " + player)
+#     print("computer: " + computer)
+#     print("You lose", computer, "smashes", player)
+# else:
+#     print("Check your spelling...")
+
+# rock paper scissors game
+
+# import random
+#
+# while True:
+#     choices = ["rock", "paper", "scissors"]
+#
+#     computer = random.choice(choices)
+#     player = None
+#
+#     while player not in choices:
+#         player = input("rock, paper or scissors?: ").lower()
+#
+#     if player == computer:
+#         print("computer: " + computer)
+#         print("player: " + player)
+#         print("Tie")
+#     elif player == "rock":
+#         if computer == "paper":
+#             print("computer: " + computer)
+#             print("player: " + player)
+#             print("You lose", computer, "covers", player)
+#         if computer == "scissors":
+#             print("computer: " + computer)
+#             print("player: " + player)
+#             print("You win", player, "smashes", computer)
+#     elif player == "paper":
+#         if computer == "rock":
+#             print("computer: " + computer)
+#             print("player: " + player)
+#             print("You win", player, "covers", computer)
+#         if computer == "scissors":
+#             print("computer: " + computer)
+#             print("player: " + player)
+#             print("You lose", computer, "cuts", player)
+#     elif player == "scissors":
+#         if computer == "paper":
+#             print("computer: " + computer)
+#             print("player: " + player)
+#             print("You win", player, "cuts", computer)
+#         if computer == "rock":
+#             print("computer: " + computer)
+#             print("player: " + player)
+#             print("You lose", computer, "smashes", player)
+#     play_again = input("Play again? (yes/no): ").lower()
+#     if play_again != "yes":
+#         break
+#
+# print("Bye!")
+
+
 
 
 
