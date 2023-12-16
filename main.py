@@ -227,5 +227,74 @@
 #             'India': 'New Delhi',
 #             'China': 'Beijing',
 #             'Russia': 'Moscow'}
+#
+# print(capitals['India'])
+# print(capitals.get('Germany','not found'))
+# print(capitals.keys())
+# print(capitals.values())
+# print(capitals.items())
+#
+# for key, value in capitals.items():
+#     print(key, value)
+#
+# capitals.update({'Germany': 'Berlin'})
+# capitals.pop('China')
+# capitals.update({'USA': 'Las Vegas'})
+# capitals.clear()
+
+# name = "halil seran!"
+# if(name[0].islower()):
+#     name = name.capitalize()
+#
+# first_name = name[:5].upper()
+# last_name = name[6:11].upper()
+# last_character = name[-1]
+#
+# print(first_name + ' ' + last_name + last_character)
+
+# def hello(first_name, last_name, age):
+#     print("hello" + " " + first_name + " " + last_name + " " + str(age))
+#
+# my_name = "Halil"
+# hello(my_name, "Seran", 25)
+
+# def multiply(number1, number2):
+#     return number1 * number2
+#
+# print(multiply(2,3))
+
+# def hello(first, middle, last):
+#     print("Hello " + first + " " + middle + " " + last)
+#
+# hello("Halil", "Seran", "")
+# hello(last="Seran", first="Halil", middle="")
+
+# num = input("Enter a whole positive number: ")
+# num = float(num)
+# num = abs(num)
+# num = round(num)
+#
+# print(num)
+#
+# print(round(abs(float(input("Enter a whole positive number: ")))))
+
+
+# name = "x"
+# def display_name():
+#     name = "Halil"
+#     print(name)
+#
+# print(name)
+# display_name()
+#
+# #LEGB rule
+
+
+
+
+
+
+
+
 
 
