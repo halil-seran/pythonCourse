@@ -290,9 +290,113 @@
 # #LEGB rule
 
 
+# def add(*args):
+#     sum = 0
+#     changeable = list(args)
+#     changeable[0] = 5
+#     for i in args:
+#         sum += i
+#     return sum + changeable[0]
+#
+# print(add(1,2,3,4,5,6,7,8,9,10))
+
+# def hello (**kwargs):
+#     print("Hello " + kwargs['first'] + " " + kwargs['last'])
+#     print("Hello", end=" ")
+#     for key, value in kwargs.items():
+#         print(value, end=" ")
+#
+# hello(title="Mr.", first="Bro",middle="Dude",last="Code")
 
 
+# animal = "cow"
+# item = "moon"
+#
+# print("The " + animal + " jumped over the " + item)
+# print("The {} jumped over the {}".format(animal, item))
+# print("The {1} jumped over the {0}".format(animal, item))
+# print("The {animal} jumped over the {item}".format(animal="cow", item="moon"))
 
+# text = "The {} jumped over the {}"
+# print(text.format("cow", "moon"))
+
+# name = "Halil"
+#
+# print("Hello {}".format(name))
+# print("Hello {:10}. Nice to meet you".format(name))
+# print("Hello {lastname:10}. Nice to meet you".format(lastname="seran"))
+# print("Hello {:<10}. Nice to meet you".format(name))
+# print("Hello {:>10}. Nice to meet you".format(name))
+# print("Hello {:^10}. Nice to meet you".format(name))
+
+# number = 3.14159
+# number2 = 1000000
+#
+# print("The number pi is {:.2f}".format(number))
+# print("The number pi is {:,}".format(number2))
+# print("The number pi is {:b}".format(number2))
+# print("The number pi is {:o}".format(number2))
+# print("The number pi is {:x}".format(number2))
+# print("The number pi is {:E}".format(number2))
+
+# import random
+#
+# x = random.randint(1,6)
+# y = random.random()
+#
+# myList = ["rock", "paper", "scissors"]
+# z = random.choice(myList)
+#
+# cards = [1,2,3,4,5,6,7,8,9,"J","Q","K","A"]
+#
+#
+# random.shuffle(cards)
+# print(cards)
+# print(x)
+# print(y)
+# print(z)
+
+# try:
+#     numerator = int(input("Enter a number to divide: "))
+#     denominator = int(input("Enter a number to divide by: "))
+#     result = numerator /  denominator
+# except ZeroDivisionError as e:
+#     print(e)
+#     print("You can't divide by zero")
+# except ValueError as e:
+#     print(e)
+#     print("Enter only numbers")
+# except Exception as e:
+#     print(e)
+#     print("something went wrong")
+# else:
+#     print(result)
+# finally:
+#     print("This will always execute")
+
+# import os
+#
+# path = "/Users/halil/Desktop/aws.png"
+#
+# if(os.path.exists(path)):
+#     print("That location exists")
+#     if(os.path.isfile(path)):
+#         print("That is a file")
+#     elif(os.path.isdir(path)):
+#         print("That is a directory")
+# else:
+#     print("That location doesn't exist")
+
+
+# try:
+#     with open("test.txt", "w") as file:
+#        file.write("Hello\nWorld")
+#     with open("test.txt", "a") as file:
+#        file.write("Hello\nWorld")
+#     with open("test.txt", "r") as file:
+#         print(file.read())
+# except FileNotFoundError:
+#     print("That file was not found")
 
 
 
