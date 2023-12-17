@@ -1,5 +1,6 @@
 # print('lets try again')
 
+
 # name = ('halil')
 # print('hello', name)
 # print(type(name))
@@ -601,5 +602,406 @@
 # while play_again():
 #     new_game()
 # print("Bye!")
+
+# from car import Car
+#
+# car_1 = Car("Chevrolet", "Camaro", 2021, "red")
+# car_2 = Car("Mercedes", "C300", 2020, "black")
+
+# print(car_1.make)
+# print(car_1.model)
+# print(car_2.year)
+# print(car_2.color)
+#
+# car_1.drive()
+# car_2.stop()
+# Car.wheels = 6
+# print(car_1.wheels)
+# print(Car.wheels)
+
+
+# class Animal:
+#
+#     alive: True
+#
+#     def eat(self):
+#         print("This animal is eating")
+#
+#     def sleep(self):
+#         print("This animal is sleeping")
+#
+#
+# class Rabbit(Animal):
+#     def run(self):
+#         print("This rabbit is running")
+#
+#
+# class Fish(Animal):
+#     def swim(self):
+#         print("This fish is swimming")
+#
+#
+# class Hawk(Animal):
+#     def fly(self):
+#         print("This hawk is flying")
+#
+#
+# rabbit = Rabbit()
+# fish = Fish()
+# hawk = Hawk()
+# print(rabbit.alive)
+# fish.eat()
+# hawk.sleep()
+# rabbit.run()
+# fish.swim()
+# hawk.fly()
+
+# class Organism:
+#     alive = True
+#
+# class Animal(Organism):
+#     def eat(self):
+#         print("This animal is eating")
+#
+# class Dog(Animal):
+#     def bark(self):
+#         print("This dog is barking")
+#
+# dog = Dog()
+# print(dog.alive)
+# dog.eat()
+# dog.bark()
+
+# class Prey:
+#     def flee(self):
+#         print("This animal is fleeing")
+#
+# class Predator:
+#     def hunt(self):
+#         print("This animal is hunting")
+#
+# class Rabbit(Prey):
+#     pass
+#
+# class Hawk(Predator):
+#     pass
+#
+# class Fish(Prey, Predator):
+#     pass
+#
+# rabbit = Rabbit()
+# hawk = Hawk()
+# fish = Fish()
+#
+# rabbit.flee()
+# hawk.hunt()
+# fish.flee()
+# fish.hunt()
+
+# class Animal:
+#     def eat(self):
+#         print("This animal is eating")
+#
+#
+# class Fish(Animal):
+#     def eat(self):
+#         print("This fish is eating")
+#
+#
+# fish = Fish()
+# fish.eat()
+
+
+# class Car:
+#
+#     def turn_on(self):
+#         print("You start the engine")
+#         return self
+#
+#     def drive(self):
+#         print("You drive the car")
+#         return self
+#
+#     def brake(self):
+#         print("You step on the brake")
+#         return self
+#
+#     def turn_off(self):
+#         print("You turn off the engine")
+#         return self
+#
+#
+#
+# car = Car()
+
+# car.turn_on()
+# car.drive()
+#
+# car.turn_on().drive()
+
+# (car.turn_on().
+#  drive().
+#  brake().
+#  turn_off())
+
+# class Rectangle:
+#     def __init__(self, width, height):
+#         self.width = width
+#         self.height = height
+#
+# class Square(Rectangle):
+#     def __init__(self, side_length):
+#         super().__init__(side_length, side_length)
+#     def area(self):
+#         return self.width * self.height
+# class Cube(Square):
+#     def surface_area(self):
+#         face_area = super().area()
+#         return face_area * 6
+#     def volume(self):
+#         face_area = super().area()
+#         return face_area * self.height
+#
+# square = Square(4)
+# cube = Cube(3)
+# print(square.area())
+# print(cube.surface_area())
+
+# from abc import ABC, abstractmethod
+#
+#
+# class Vehicle(ABC):
+#
+#     @abstractmethod
+#     def go(self):
+#         pass
+#
+#     @abstractmethod
+#     def stop(self):
+#         pass
+#
+#
+# class Car(Vehicle):
+#     def go(self):
+#         print("You drive the car")
+#
+#     def stop(self):
+#         print("You stop the car")
+#
+#
+# class Motorcycle(Vehicle):
+#     def go(self):
+#         print("You ride the motorcycle")
+#
+#     def stop(self):
+#         print("You stop the motorcycle")
+#
+#
+# # vehicle = Vehicle()
+# car = Car()
+# motorcycle = Motorcycle()
+#
+# # vehicle.go()
+# car.go()
+# motorcycle.go()
+# car.stop()
+# motorcycle.stop()
+
+# class Car:
+#     color = None
+#
+# class Motorcycle:
+#     color = None
+#
+# def change_color(car, color):
+#     car.color = color
+#
+# car1 = Car()
+# car2 = Car()
+# car3 = Car()
+#
+# bike1 = Motorcycle()
+#
+# change_color(car1, "red")
+# change_color(car2, "blue")
+# change_color(car3, "green")
+# change_color(bike1, "black")
+#
+#
+# print(car1.color)
+# print(car2.color)
+# print(car3.color)
+# print(bike1.color)
+
+
+# class Duck:
+#     def walk(self):
+#         print("This duck is walking")
+#
+#     def talk(self):
+#         print("This duck is quacking")
+#
+#
+# class Chicken:
+#     def walk(self):
+#         print("This chicken is walking")
+#
+#     def talk(self):
+#         print("This chicken is clucking")
+#
+# class Person():
+#     def catch(self, duck):
+#         duck.walk()
+#         duck.talk()
+#         print("You caught the critter")
+#
+#
+# duck = Duck()
+# chicken = Chicken()
+# person = Person()
+#
+# person.catch(duck)
+# person.catch(chicken)
+
+# happy = True
+# print(happy)
+
+# print(happy := True)
+#
+# foods = list()
+# while True:
+#     food = input("Enter a food to remember. Enter 'end' to quit: ")
+#     if food == "end":
+#         break
+#     foods.append(food)
+
+# foods = list()
+# while food := input("Enter a food to remember. Enter 'end' to quit: ") != "end":
+#     foods.append(food)
+
+
+# def hello():
+#     print("Hello")
+#
+# hello()
+# print(hello)
+# hi = hello
+# print(hi)
+# hi()
+
+# say = print
+#
+# say("Hello")
+
+
+# def loud(text):
+#     return text().upper()
+#
+#
+# def quiet(text):
+#     return text().lower()
+#
+#
+# def hello(func):
+#     text = func("Hello")
+#     print(text)
+#
+# hello(loud)
+# hello(quiet)
+
+# def divisor(x):
+#     def dividend(y):
+#         return y / x
+#     return dividend
+#
+# divide = divisor(2)
+# print(divide(10))
+
+
+# def double(x):
+#     return x * 2
+#
+# print(double(12))
+
+# double = lambda x: x * 2
+# multiply = lambda x, y: x * y
+# add = lambda x, y, z: x + y + z
+# full_name = lambda first, last: first + " " + last
+# age_check = lambda age: True if age >= 18 else False
+#
+# print(double(12))
+# print(multiply(12, 2))
+# print(add(12, 2, 4))
+# print(full_name("Halil", "seran"))
+# print(age_check(25))
+
+
+# students = ["Squidward", "Spongebob", "Patrick", "Sandy", "Mr. Krabs"]
+# students2 = ("Squidward", "Spongebob", "Patrick", "Sandy", "Mr. Krabs")
+#
+# students.sort(reverse=True)
+# sorted_students = sorted(students2, reverse=True)
+#
+#
+# print(students)
+# print(sorted_students)
+
+# students = [("Squidward", "F", 50),
+#            ("Spongebob", "A", 20),
+#            ("Patrick", "D", 35),
+#            ("Sandy", "B", 25),
+#            ("Mr. Krabs", "C", 100)]
+#
+# grade = lambda grades: grades[1]
+# age= lambda ages: ages[2]
+#
+# students.sort(key=grade, reverse=True)
+# students.sort(key=age)
+#
+# print(students)
+
+# students = (("Squidward", "F", 50),
+#            ("Spongebob", "A", 20),
+#            ("Patrick", "D", 35),
+#            ("Sandy", "B", 25),
+#            ("Mr. Krabs", "C", 100))
+#
+# grade = lambda grades: grades[1]
+# age= lambda ages: ages[2]
+# sorted_students = sorted(students, key=age)
+#
+# print(sorted_students)
+
+# store = [("shirt", 20.00),
+#          ("pants", 25.00),
+#          ("jacket", 50.00),
+#          ("socks", 10.00)]
+#
+# to_euros = lambda data: (data[0], data[1] * 0.92)
+# to_dollars = lambda data: (data[0], data[1] / 0.92)
+#
+# store_euros = list(map(to_euros, store))
+# store_dollars = list(map(to_dollars, store_euros))
+#
+# for i in store_euros:
+#     print(i)
+# for i in store_dollars:
+#     print(i)
+
+
+# friends = [("Rachel", 19),
+#               ("Monica", 18),
+#               ("Phoebe", 17),
+#               ("Joey", 16),
+#               ("Chandler", 21),
+#               ("Ross", 20)]
+#
+# age = lambda data: data[1] >= 18
+#
+# drinking_buddies = list(filter(age, friends))
+#
+# print(drinking_buddies)
+
+
 
 
