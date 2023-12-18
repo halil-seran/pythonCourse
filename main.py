@@ -1003,5 +1003,44 @@
 # print(drinking_buddies)
 
 
+# import functools
+
+
+# letters = ["H", "A", "L", "I", "L"]
+#
+# word = functools.reduce(lambda x, y: x + y, letters)
+#
+# print(word)
+
+# factorial = [5, 4, 3, 2, 1]
+#
+# result = functools.reduce(lambda x, y: x * y, factorial)
+# print(result)
+
+# squares = []
+#
+# for i in range(1, 11):
+#     squares.append(i * i)
+#
+# print(squares)
+#
+# squares = [i * i for i in range(1, 11)]
+# print(squares)
+
+
+# students = [100, 90, 80, 70, 60, 50, 40, 30, 0]
+#
+# passed_students = list(filter(lambda x: x >= 60, students))
+#
+# passed_students2 = [i for i in students if i >= 60]
+#
+# failed_students = list(filter(lambda x: x < 60, students))
+#
+# print(passed_students)
+# print(passed_students2)
+# print(failed_students)
+
+
+
 
 
