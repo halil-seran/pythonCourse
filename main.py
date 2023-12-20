@@ -1040,6 +1040,51 @@
 # print(passed_students2)
 # print(failed_students)
 
+# cities_in_F = {"New York": 32, "Boston": 75, "Los Angeles": 100, "Chicago": 50}
+#
+# cities_in_C = {key: round((value - 32) * (5/9)) for (key, value) in cities_in_F.items()}
+#
+# print(cities_in_C)
+#
+# weather = {"New York": "snowing", "Boston": "sunny", "Los Angeles": "sunny", "Chicago": "cloudy"}
+#
+# sunny_weather = {key: value for (key, value) in weather.items() if value == "sunny"}
+#
+# print(sunny_weather)
+#
+# cities = {"New York": 32, "Boston": 75, "Los Angeles": 100, "Chicago": 50}
+#
+# desc_cities = {key: ("warm" if value >= 40 else "cold") for (key, value) in cities.items()}
+#
+# print(desc_cities)
+
+# cities = {"New York": 32, "Boston": 75, "Los Angeles": 100, "Chicago": 50}
+#
+# def check_temp(value):
+#     if value < 40:
+#         return "cold"
+#     elif value >= 40 and value < 60:
+#         return "mild"
+#     else:
+#         return "warm"
+#
+# desc_cities = {key: check_temp(value) for (key, value) in cities.items()}
+#
+# print(desc_cities)
+
+# usernames = ['jon', 'tyrion', 'theon', 'cersei', 'sansa']
+# passwords = ("jon123", "tyrion123", "theon123", "cersei123", "sansa123")
+# login_date = [2012, 2013, 2014, 2015, 2016]
+#
+#
+# users = zip(usernames, passwords, login_date)
+# users2 = list(zip(usernames,passwords))
+#
+# for i in users:
+#     print(i)
+
+
+
 
 
 
