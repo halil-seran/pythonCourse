@@ -1084,6 +1084,106 @@
 #     print(i)
 
 
+# def main():
+#     print("main function")
+#
+#
+# if __name__ == "__main__":
+#     main()
+
+
+# import time
+
+# print(time.ctime(1000000000))
+#
+# print(time.time())
+#
+# print(time.ctime(time.time()))
+#
+# time_object = time.localtime()
+# print(time_object)
+#
+# local_time = time.strptime("%B %d %Y %H:%M:%S", time_object)
+# print(local_time)
+#
+# time_string = "11 September, 2001"
+# time_object2 = time.strptime(time_string, "%d %B, %Y")
+# print(time_object2)
+
+# time_tuple = (2021, 9, 11, 9, 11, 0, 5, 254, 0)
+# time_string = time.asctime(time_tuple)
+# print(time_string)
+
+# time_tuple = (2021, 9, 11, 9, 11, 0, 5, 254, 0)
+# time_string = time.mktime(time_tuple)
+# print(time_string)
+
+# import threading
+# import time
+#
+#
+# def eat_breakfast():
+#     time.sleep(3)
+#     print("You finished eating breakfast")
+#
+#
+# def drink_coffee():
+#     time.sleep(4)
+#     print("You finished drinking coffee")
+#
+#
+# def study():
+#     time.sleep(5)
+#     print("You finished studying")
+#
+#
+# x = threading.Thread(target = eat_breakfast, args=())
+# x.start()
+#
+# y = threading.Thread(target = drink_coffee, args=())
+# y.start()
+#
+# z = threading.Thread(target = study, args=())
+# z.start()
+#
+#
+# x.join()
+# y.join()
+# z.join()
+
+# eat_breakfast()
+# drink_coffee()
+# study()
+
+
+# print(threading.active_count())
+# print(threading.enumerate())
+# print(time.perf_counter())
+
+
+# import threading
+# import time
+#
+#
+# def timer():
+#     print()
+#     count = 0
+#     while True:
+#         time.sleep(1)
+#         count += 1
+#         print("Logged in for: ", count, "seconds")
+#
+#
+# x = threading.Thread(target=timer, daemon=True)
+# x.start()
+#
+# x.setDaemon(True)
+# print(x.isDaemon())
+#
+# answer = input("Do you wish to exit? ")
+
+
+
 
 
 
