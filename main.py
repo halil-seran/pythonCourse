@@ -1183,35 +1183,123 @@
 # answer = input("Do you wish to exit? ")
 
 
-from multiprocessing import Process, cpu_count
-import time
+# from multiprocessing import Process, cpu_count
+# import time
+#
+#
+# def counter(num):
+#     count = 0
+#     while count < num:
+#         count += 1
+#
+# def main():
+#
+#     print(cpu_count())
+#
+#     a = Process(target=counter, args=(100000000,))
+#     b = Process(target=counter, args=(100000000,))
+#     c = Process(target=counter, args=(100000000,))
+#     d = Process(target=counter, args=(100000000,))
+#     e = Process(target=counter, args=(100000000,))
+#     f = Process(target=counter, args=(100000000,))
+#     g = Process(target=counter, args=(100000000,))
+#     h = Process(target=counter, args=(100000000,))
+#
+#     a.start()
+#     b.start()
+#     c.start()
+#     d.start()
+#     e.start()
+#     f.start()
+#     g.start()
+#     h.start()
+#
+#
+#     a.join()
+#     b.join()
+#     c.join()
+#     d.join()
+#     e.join()
+#     f.join()
+#     g.join()
+#     h.join()
+#
+#
+#     print("Finished in: ", time.perf_counter(), "seconds")
+#
+# if __name__ == '__main__':
+#     main()
 
 
-def counter(num):
-    count = 0
-    while count < num:
-        count += 1
+# from tkinter import *
 
-def main():
-    a = Process(target=counter, args=(100000000,))
-    b = Process(target=counter, args=(100000000,))
-    c = Process(target=counter, args=(100000000,))
-    d = Process(target=counter, args=(100000000,))
+# window = Tk()
+# window.geometry("420x420")
+# window.title("My GUI")
 
-    a.start()
-    b.start()
-    c.start()
-    d.start()
+# icon = PhotoImage(file='icon.jpg')
+# window.iconphoto(True, icon)
+# window.config(background="#5cffd6")
 
-    a.join()
-    b.join()
-    c.join()
-    d.join()
+# window.mainloop()
 
-    print("Finished in: ", time.perf_counter(), "seconds")
 
-if __name__ == '__main__':
-    main()
+# window = Tk()
+# window.geometry("420x420")
+# window.title("My GUI")
+#
+# label = Label(window, text="halil seran!", font=("Arial", 40, "bold"), fg="white", bg="black")
+# label.place(x=0,y=0)
+
+
+# window.mainloop()
+
+# from tkinter import *
+#
+#
+# count = 0
+# def click():
+#     global count
+#     count += 1
+#     print("Button was clicked " + str(count) + " times")
+#
+# window = Tk()
+# # photo = PhotoImage(file="icon.jpg")
+#
+# button = Button(window,
+#                 text="Click Me!",
+#                 width=20,
+#                 height=5,
+#                 bg="black",
+#                 fg="white",
+#                 font=("Arial", 20, "bold"),
+#                 command=click,
+#                 activeforeground="red",
+#                 activebackground="blue",
+#                 state=ACTIVE,
+#                 # image=photo,
+#                 # compound="bottom",
+#                 )
+# button.pack()
+#
+# window.mainloop()
+
+    # from tkinter import *
+    # from tkinter import filedialog
+    #
+    # def openFile():
+    #     filepath = filedialog.askopenfile()
+    #     print(filepath)
+    #
+    # window = Tk()
+    #
+    # button = Button(text="Open File", command=openFile)
+    # button.pack()
+    #
+    #
+    #
+    # window.mainloop()
+
 
 
 
