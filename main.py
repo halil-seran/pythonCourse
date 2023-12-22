@@ -1300,6 +1300,39 @@
     #
     # window.mainloop()
 
+#
+# nums = [2,7,11,15]
+# target = 9
+#
+# def twoSum(nums, target):
+#     for i in range(len(nums)):
+#         for j in range(i+1, len(nums)):
+#             if(nums[i] + nums[j] == target):
+#                 return [i,j]
+#
+#
+#
+# twoSum(nums, target)
+
+# l1 = [2,4,3]
+# l2 = [5,6,4]
+#
+# def addTwoNumbers(l1, l2):
+#     l1.reverse()
+#     l2.reverse()
+#     l1 = int("".join(map(str, l1)))
+#     l2 = int("".join(map(str, l2)))
+#     sum = l1 + l2
+#     sum = str(sum)
+#     sum = list(sum)
+#     sum.reverse()
+#     return sum
+
+
+
+
+
+
 
 
 
