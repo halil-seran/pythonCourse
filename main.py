@@ -1284,21 +1284,21 @@
 #
 # window.mainloop()
 
-    # from tkinter import *
-    # from tkinter import filedialog
-    #
-    # def openFile():
-    #     filepath = filedialog.askopenfile()
-    #     print(filepath)
-    #
-    # window = Tk()
-    #
-    # button = Button(text="Open File", command=openFile)
-    # button.pack()
-    #
-    #
-    #
-    # window.mainloop()
+# from tkinter import *
+# from tkinter import filedialog
+#
+# def openFile():
+#     filepath = filedialog.askopenfile()
+#     print(filepath)
+#
+# window = Tk()
+#
+# button = Button(text="Open File", command=openFile)
+# button.pack()
+#
+#
+#
+# window.mainloop()
 
 #
 # nums = [2,7,11,15]
@@ -1329,12 +1329,151 @@
 #     return sum
 
 
+# def longestCommonPrefix(strs):
+#     if not strs:
+#         return ""
+#     shortest = min(strs, key=len)
+#     for i, ch in enumerate(shortest):
+#         for other in strs:
+#             if other[i] != ch:
+#                 return shortest[:i]
+#     return shortest
+#
+# print(longestCommonPrefix(strs))
+
+# s = "()[]{}"
+#
+# def isValid(s):
+# stack = []
+# table = {
+#     ")": "(",
+#     "]": "[",
+#     "}": "{"
+# }
+#
+# for char in s:
+#     if char not in table:
+#         stack.append(char)
+#     elif not stack or table[char] != stack.pop():
+#         return False
+# return not stack
 
 
+# list1 = [1,2,4]
+# list2 = [1,3,4]
+#
+# def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+#     if not list1:
+#         return list2
+#     if not list2:
+#         return list1
+#     if list1.val < list2.val:
+#         list1.next = self.mergeTwoLists(list1.next, list2)
+#         return list1
+#     else:
+#         list2.next = self.mergeTwoLists(list1, list2.next)
+#         return list2
+#
+#
+# print(mergeTwoLists(list1, list2))
 
 
+# nums = [0,1,2,2,2,3,3,4]
+# arr = []
+# a = -1
+# result = 0
+# for i in nums:
+#     if nums[a] != i:
+#         arr.append(i)
+#         result += 1
+#     a += 1
+# print(type(arr[0]))
+# print(arr)
+# print(result)
+#
+# # for (i, j) in enumerate(nums):
+# #     print(i, j)
+#
+# j = 1
+# for i in range(1, len(nums)):
+#     if nums[i] != nums[i - 1]:
+#         nums[j] = nums[i]
+#         j += 1
+# print("----")
+# print(j)
 
 
+# s = "  fly to the moon  "
+# txt = s[::-1]
+# count = 0
+# print(txt)
+# for i in txt:
+#     if i == " ":
+#         txt = txt[1:]
+#     else:
+#         count += 1
+#         break
+# print(txt)
+# print(count)
+
+# from itertools import combinations
+#
+# s , n  = input().split()
+#
+# s = sorted(s)
+#
+# for i in range(1, int(n)+1):
+#     for j in combinations(s, i):
+#         print(''.join(j))
+
+#
+# from itertools import permutations
+#
+# x=2
+# y=2
+# z=2
+# h=2
+#
+# perm = permutations([x, y, z])
+#
+# result = []
+# for i in list(perm):
+#     if i[x,y,z] == h:
+#         result.append(i)
+# print(result)
+
+# from itertools import permutations
+#
+# # Get all permutations of [1, 2, 3]
+# perm = permutations([1, 2, 3])
+#
+# # Print the obtained permutations
+# for i in list(perm):
+#     print(i)
 
 
+# records = [['Harry', 37.21], ['Berry', 37.21], ['Tina', 37.2], ['Akriti', 41], ['Harsh', 39]]
+
+# records.sort(key=lambda x: x[1])
+# records.sort(key=score, reverse=True)
+# sorted(records, key=score, reverse=True)
+# sorted(records, key=lambda x: x[1], reverse=True)
+#
+# print(records)
+
+# recordsme = "1 w 2 r 3g"
+#
+#
+# print(me.title())
+
+# def check(string):
+#
+#     return True if string in ('A', 'E', 'I', 'O', 'U') else False
+
+
+# print((lambda t: f"Stuart {t[0]}" if t[0] > t[1]
+# else (f"Draw" if t[0] == t[1] else f"Kevin {t[1]}"))
+#       (reduce(lambda t1, t2: [t1[0] + t2[0], t1[1] + t2[1]],
+#               [[0, len(string) - i] if string[i] in "AEIOU" else [len(string) - i, 0] for i in range(len(string))],
+#               [0, 0])))
 
